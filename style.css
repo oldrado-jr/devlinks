@@ -81,6 +81,7 @@ body * {
   animation: slide-out 0.2s;
 
   cursor: pointer;
+  transition: outline 0.2s;
 }
 
 #switch button:hover {
