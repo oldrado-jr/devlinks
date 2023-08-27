@@ -30,6 +30,13 @@
   justify-content: center;
 }
 
+.box-decoration {
+  border: 1px solid var(--stroke-color);
+  background: var(--surface-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -102,10 +109,6 @@ body * {
   width: 64px;
   height: 24px;
   border-radius: 9999px;
-  border: 1px solid var(--stroke-color);
-  background: var(--surface-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 }
 
 /* links */
@@ -120,13 +123,7 @@ ul {
 
 ul li a {
   padding: 16px 24px;
-
-  background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
   border-radius: 8px;
-
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 
   text-decoration: none;
   font-weight: 500;
